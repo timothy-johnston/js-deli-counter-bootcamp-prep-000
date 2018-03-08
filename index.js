@@ -16,7 +16,8 @@ function nowServing(katzDeliLine) {
 function currentLine(katzDeliLine) {
   if (katzDeliLine.length===0) {
     return "The line is currently empty."
-  } else {
+  }
+  
     for (i=0;i<katzDeliLine.length;i++) {
       if (i===0) {
         sentence = `The line is currently: 1. ${katzDeliLine[i]}`
@@ -24,7 +25,7 @@ function currentLine(katzDeliLine) {
         sentence = sentence + `, ${i+1} ${katzDeliLine[i]}`
       }
     }
-  }
+
 }
      
   
