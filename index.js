@@ -40,8 +40,8 @@ function currentLine(katzDeliLine) {
       } else {
         sentence = sentence + `, ${i+1} ${katzDeliLine[i]}`
       }
-      return sentence
     }
+    return sentence
   }
 }
 
