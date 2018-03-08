@@ -33,7 +33,7 @@ function currentLine(katzDeliLine) {
   
     for (var i=0;i<katzDeliLine.length;i++) {
       if (i===0) {
-        sentence = `The line is currently: 1. ${katzDeliLine[i]}`
+        var sentence = `The line is currently: 1. ${katzDeliLine[i]}`
       } else {
         sentence = sentence + `, ${i+1} ${katzDeliLine[i]}`
       }
