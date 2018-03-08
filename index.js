@@ -1,0 +1,5 @@
+katzDeli=[];
+
+takeANumber(katzDeliLine,newName) {
+  
+}
