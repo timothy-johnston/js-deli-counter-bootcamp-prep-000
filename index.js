@@ -1,4 +1,4 @@
-katzDeli=[];
+var katzDeli=[];
 
 takeANumber(katzDeliLine,newName) {
   
