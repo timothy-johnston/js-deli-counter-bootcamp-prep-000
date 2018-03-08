@@ -38,8 +38,9 @@ function currentLine(katzDeliLine) {
           return sentence
         }
       } else {
-        return sentence = sentence + `, ${i+1} ${katzDeliLine[i]}`
+        sentence = sentence + `, ${i+1} ${katzDeliLine[i]}`
       }
+      return sentence
     }
   }
 }
